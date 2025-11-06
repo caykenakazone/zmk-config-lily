@@ -159,11 +159,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&trans  &trans  &trans            &trans         &trans   &trans                     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans            &trans         &trans   &trans                     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp LS(NUMBER_6)  &kp LS(GRAVE)  &kp SQT  &kp GRAVE                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans            &trans         &trans   &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                  &trans         &trans   &trans     &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans            &trans         &trans   &trans                     &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans            &trans         &trans   &trans                     &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp LS(NUMBER_6)  &kp LS(GRAVE)  &kp SQT  &kp GRAVE                  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans            &trans         &trans   &trans     &trans  &trans  &kp APOS  &trans  &trans  &trans  &trans  &trans
+                                  &trans         &trans   &trans     &trans  &trans  &trans    &trans  &trans
             >;
         };
 
