@@ -142,10 +142,10 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&trans  &trans          &trans          &trans            &trans                 &trans                     &kp C_PREV      &kp C_PLAY_PAUSE  &kp C_NEXT    &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans
-&trans  &trans          &kp UP_ARROW    &kp LEFT_BRACE    &kp RIGHT_BRACE        &kp PLUS                   &backtick       &kp PLUS          &trans        &trans                &kp KP_EQUAL          &trans
-&trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW   &kp RIGHT_PARENTHESIS  &kp MINUS                  &single_quotes  &kp LEFT          &kp UP_ARROW  &kp DOWN              &kp RIGHT             &trans
-&trans  &trans          &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET      &kp UNDER  &trans  &trans  &double_quotes  &kp PIPE          &trans        &trans                &kp BACKSLASH         &trans
+&trans  &trans          &trans          &trans            &trans                 &trans                     &kp C_PREV      &kp C_PLAY_PAUSE  &kp C_NEXT      &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans
+&trans  &trans          &kp UP_ARROW    &kp LEFT_BRACE    &kp RIGHT_BRACE        &kp PLUS                   &backtick       &kp PLUS          &trans          &trans                &kp KP_EQUAL          &trans
+&trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW   &kp RIGHT_PARENTHESIS  &kp MINUS                  &single_quotes  &kp LEFT          &kp UP_ARROW    &kp DOWN              &kp RIGHT             &trans
+&trans  &trans          &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET      &kp UNDER  &trans  &trans  &double_quotes  &kp PIPE          &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH         &trans
                                         &trans            &trans                 &trans     &trans  &trans  &trans          &trans
             >;
         };
@@ -159,11 +159,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&trans  &trans  &trans            &trans         &trans   &trans                     &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans            &trans         &trans   &trans                     &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp LS(NUMBER_6)  &kp LS(GRAVE)  &kp SQT  &kp GRAVE                  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans            &trans         &trans   &trans     &trans  &trans  &kp APOS  &trans  &trans  &trans  &trans  &trans
-                                  &trans         &trans   &trans     &trans  &trans  &trans    &trans  &trans
+&trans  &trans  &trans            &trans         &trans             &trans                     &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans            &trans         &trans             &trans                     &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp LS(NUMBER_6)  &kp LS(GRAVE)  &kp DOUBLE_QUOTES  &kp GRAVE                  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans            &trans         &trans             &trans     &trans  &trans  &kp APOS  &trans  &trans  &trans  &trans  &trans
+                                  &trans         &trans             &trans     &trans  &trans  &trans    &trans  &trans
             >;
         };
 
