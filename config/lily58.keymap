@@ -123,11 +123,11 @@
             //                     | ALT  | GUI  | LOWER|  SPACE |  | BSPC  | RAISE| ENTER | GUI   |
 
             bindings = <
-&kp ESC       &kp N1  &kp N2  &kp N3    &kp N4        &kp N5                                                  &kp N6               &kp N7         &kp N8      &kp N9      &kp N0    &kp BACKSPACE
-&kp CAPSLOCK  &kp Q   &kp W   &kp E     &kp R         &kp T                                                   &kp Y                &kp U          &kp I       &kp O       &kp P     &kp LEFT_PARENTHESIS
-&kp LSHFT     &kp A   &kp S   &kp D     &kp F         &kp G                                                   &kp H                &kp J          &kp K       &kp L       &kp FSLH  &kp RIGHT_PARENTHESIS
-&kp LCTRL     &kp Z   &kp X   &kp C     &kp V         &kp B   &kp TAB             &kp RIGHT_WIN               &kp N                &kp M          &kp COMMA   &kp PERIOD  &kp SEMI  &kp QUESTION
-                              &kp LGUI  &kp LEFT_ALT  &mo 3   &mt LEFT_ALT SPACE  &mt LC(LS(LEFT_ALT)) ENTER  &hold_tap_layer 1 2  &kp RIGHT_WIN  &kp DELETE
+&kp ESC    &kp N1  &kp N2  &kp N3    &kp N4        &kp N5                                                  &kp N6               &kp N7         &kp N8      &kp N9      &kp N0    &kp BACKSPACE
+&kp TAB    &kp Q   &kp W   &kp E     &kp R         &kp T                                                   &kp Y                &kp U          &kp I       &kp O       &kp P     &kp LEFT_PARENTHESIS
+&kp LSHFT  &kp A   &kp S   &kp D     &kp F         &kp G                                                   &kp H                &kp J          &kp K       &kp L       &kp FSLH  &kp LEFT_BRACE
+&kp LCTRL  &kp Z   &kp X   &kp C     &kp V         &kp B   &kp CAPSLOCK        &kp RIGHT_WIN               &kp N                &kp M          &kp COMMA   &kp PERIOD  &kp SEMI  &kp QUESTION
+                           &kp LGUI  &kp LEFT_ALT  &mo 3   &mt LEFT_ALT SPACE  &mt LC(LS(LEFT_ALT)) ENTER  &hold_tap_layer 1 2  &kp RIGHT_WIN  &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp DOWN UP &inc_dec_kp LC(TAB) LC(LS(TAB))>;
@@ -143,8 +143,8 @@
 
             bindings = <
 &trans  &trans           &trans          &trans            &trans                 &trans                     &kp C_PREV      &kp C_PLAY_PAUSE  &kp C_NEXT      &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans
-&trans  &kp PRINTSCREEN  &kp UP_ARROW    &kp LEFT_BRACE    &kp RIGHT_BRACE        &kp PLUS                   &backtick       &kp PLUS          &trans          &trans                &kp KP_EQUAL          &trans
-&trans  &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW   &kp RIGHT_PARENTHESIS  &kp MINUS                  &single_quotes  &kp LEFT          &kp UP_ARROW    &kp DOWN              &kp RIGHT             &trans
+&trans  &kp PRINTSCREEN  &kp UP_ARROW    &kp LEFT_BRACE    &kp RIGHT_BRACE        &kp PLUS                   &backtick       &kp PLUS          &trans          &trans                &kp KP_EQUAL          &kp RIGHT_PARENTHESIS
+&trans  &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW   &kp RIGHT_PARENTHESIS  &kp MINUS                  &single_quotes  &kp LEFT          &kp UP_ARROW    &kp DOWN              &kp RIGHT             &kp RIGHT_BRACE
 &trans  &trans           &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET      &kp UNDER  &trans  &trans  &double_quotes  &kp PIPE          &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH         &trans
                                          &trans            &trans                 &trans     &trans  &trans  &trans          &trans
             >;
